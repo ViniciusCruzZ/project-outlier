@@ -46,3 +46,33 @@ footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+
+fieldset {
+    margin: 200px auto;
+    background-color: rgb(60, 5, 108);
+    height: 250px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 20px 2px #ffffff9c;
+    font-family: 'Trispace', sans-serif;
+}
+
+input {
+    margin: 20px ;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.enviar {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
