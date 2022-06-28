@@ -7,6 +7,10 @@
 body {
     background-color: #000;
     color: #FFF;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('asssets/pexels-reynaldo-brigworkz-brigantty-771881.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .logo-outlier {
@@ -46,6 +50,7 @@ a:hover {
 footer {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #000;
 }
 
 fieldset {
