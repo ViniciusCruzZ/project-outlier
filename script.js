@@ -1,13 +1,12 @@
-let login = document.getElementById('email')
-let pass = document.getElementById('password')
+function logar() {
+    var email = document.getElementById('email');
+    var senha = document.getElementById('password');
 
-let btn = document.getElementsByClassName('enviar');
+    if (email.value == "garixbot@gmail.com" && senha.value == "Isabella151220@") {
+        localStorage.setItem("acesso", true);
 
-function teste() {
-    alert(login)
-    alert(pass)
-}
-
-btn.onclick = function () {
-    alert(login)
+        window.location.href = "index.html";
+    }else {
+        alert('Usuário ou senha inválidos!')
+    }
 }

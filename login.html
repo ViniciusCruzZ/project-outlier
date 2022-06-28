@@ -17,11 +17,11 @@
     <fieldset>
         <form action="form">
             <label for="email">Login:</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required placeholder="fulano@gmail.com">
             <br>
             <label for="password">Senha:</label>
-            <input type="password" name="password" id="password">
-            <input type="button" value="ENVIAR" class="enviar">
+            <input type="password" name="password" id="password" required>
+            <input type="button" value="ENVIAR" class="enviar" onclick="logar()">
         </form>
     </fieldset>
     <script src="script.js"></script>
